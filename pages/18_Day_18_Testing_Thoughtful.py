@@ -1,0 +1,24 @@
+"""
+Day 18: Testing_Thoughtful
+
+Overview
+--------
+This day focuses on: Testing_Thoughtful.
+Follow the README tasks below the basic stub.
+
+Instructions
+------------
+- Read ./days/day_18/README.md
+- Run this page and try the mini‑lab exercises.
+- Use the expander at the bottom for Teaching Notes.
+"""
+
+import streamlit as st, time
+
+st.set_page_config(page_title="Day 18 — Testing Thoughtful", page_icon="📘")
+st.title("Day 18 — Testing Thoughtful")
+
+st.write("This is a focused, runnable stub for **Testing Thoughtful**. Follow the README for tasks.")
+
+with st.expander("🎓 Teaching Notes"):
+    st.markdown("- Keep the code minimal and build incrementally on this page.")
